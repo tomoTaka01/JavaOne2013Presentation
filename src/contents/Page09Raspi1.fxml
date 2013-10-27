@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.Page09Controller">
+  <children>
+    <Text fx:id="p1" fill="WHITE" layoutX="50.0" layoutY="50.0" stroke="WHITE" text="こんな感じです！">
+      <font>
+        <Font size="36.0" fx:id="x1" />
+      </font>
+    </Text>
+    <Text fx:id="p2" fill="WHITE" layoutX="70.0" layoutY="100.0" stroke="WHITE" text="カメラを意識して、pretendとかいってポーズ！" >
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Text>
+    <ImageView fitHeight="183.35849235534667" fitWidth="339.0" layoutX="68.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@team1.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="232.6409454345703" fitWidth="350.0" layoutX="167.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@RaspiTeam2.jpg" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

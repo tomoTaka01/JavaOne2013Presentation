@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page99Controller">
+  <children>
+        <Text id="p1" fx:id="p1" fill="WHITE" layoutX="100.0" layoutY="100.0" stroke="WHITE" text="最後に" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p2" fill="WHITE" layoutX="50" layoutY="200" stroke="WHITE" text="JavaOneすごいです！" >
+            <font><Font size="40.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="50" layoutY="300" stroke="WHITE" text="来年も行きたいです！" >
+        </Text>
+        <Text fx:id="p10" fill="WHITE" layoutX="650" layoutY="420" stroke="WHITE" text="蟹" >
+            <font><Font size="20.0" /></font>            
+        </Text>
+    <ImageView fx:id="image"  fitHeight="100.0" fitWidth="100.0" layoutX="650.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@club.jpg" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

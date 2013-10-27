@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page04Controller">
+    <children>
+        <Text id="p1" fx:id="p1" fill="BLUE" layoutX="100.0" layoutY="100.0" text="JavaOne行ってみて" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p2" fill="SKYBLUE" layoutX="50" layoutY="200" text="セッション・・・" >
+            <font><Font size="30.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="250" layoutY="230" text="やっぱり？？？" />
+        <Text fx:id="p4" fill="SKYBLUE" font="$x1" layoutX="50" layoutY="300" text="ハンズオンラボ・・・" />
+        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="250" layoutY="330" text="全然字が見えない" />
+        <Text fx:id="p6" fill="PINK" font="$x1" layoutX="50" layoutY="400" text="Raspberry Pi Challenge・・・" />
+        <Text fx:id="p7" fill="WHITE" layoutX="250" layoutY="470" text="参加して良かった！">
+                        <font><Font size="38.0" /></font>
+        </Text>
+    </children>
+</AnchorPane>

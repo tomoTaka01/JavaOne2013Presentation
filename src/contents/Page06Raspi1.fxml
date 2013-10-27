@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page06Controller">
+  <children>
+    <Text fill="WHITE" fx:id="p1" layoutX="50.0" layoutY="50.0" text="最初は、いくつかRaspberry Piを使ったアプリの紹介">
+            <font><Font size="28.0" fx:id="x1"  /></font>
+    </Text>
+    <Text fill="WHITE" fx:id="p2" font="$x1" layoutX="50.0" layoutY="100.0" text="次に各自自己紹介" />
+    <Text fill="WHITE" fx:id="p3" font="$x1" layoutX="150.0" layoutY="150.0" text="何を話したか覚えていないほど緊張" />
+    <Text fill="WHITE" fx:id="p4" font="$x1" layoutX="50.0" layoutY="200.0" text="4,5人のチームでアイデアを話し合い" />
+    <ImageView fx:id="image1"  fitHeight="280.0" fitWidth="350.0" layoutX="200.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@RaspiIdea.jpg" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

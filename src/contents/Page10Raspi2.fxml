@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.Page10Controller">
+  <children>
+    <Text fill="PINK"  layoutX="50.0" layoutY="70.0" text="Raspberry Pi Challenge 2日目">
+            <font><Font size="48.0" /></font>
+    </Text>
+    <Text fill="WHITE" layoutX="50.0" layoutY="120.0" text="会場に到着">
+            <font><Font size="22.0"  fx:id="x1"/></font>
+    </Text>
+    <Text fill="WHITE" font="$x1" layoutX="50.0" layoutY="150.0" text="しばらく待ってといわれたので、一人で温度表示する画面をJavaFXで作成"/>
+    <ImageView fitHeight="247.75199432373046" fitWidth="372.0" layoutX="200.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Bruno.jpg" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="90.88118743896484" fitWidth="350.3435134204713" layoutX="77.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@App1.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page05Controller">
+  <children>
+    <Text fill="PINK"  layoutX="50.0" layoutY="70.0" text="Raspberry Pi Challenge 1日目">
+            <font><Font size="48.0" /></font>
+    </Text>
+    <ImageView fitHeight="407.83453369140625" fitWidth="272.02245875479264" layoutX="171.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@RasPi1.jpg" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

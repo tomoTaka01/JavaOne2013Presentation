@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page06_1Controller">
+  <children>
+    <Text fill="WHITE" fx:id="p1" layoutX="50.0" layoutY="100.0" text="付箋に書いたアイデアをボードに貼る">
+            <font><Font size="28.0" fx:id="x1"  /></font>
+    </Text>
+    <Text fill="WHITE" fx:id="p2" font="$x1" layoutX="50.0" layoutY="150.0" text="第一、第二候補で色わけしている２枚の付箋に名前を書く" />
+    <Text fill="WHITE" fx:id="p3" font="$x1" layoutX="50.0" layoutY="200.0" text="その付箋を開発したいアイデアの付箋の横に貼る" />
+    <ImageView fx:id="image1"  fitHeight="242.74692153930664" fitWidth="325.0" layoutX="244.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Board.JPG" />
+      </image>
+    </ImageView>
+    <Text layoutX="39.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="参加したいアイデアの横に名前を書いた付箋を貼る" />
+  </children>
+</AnchorPane>
