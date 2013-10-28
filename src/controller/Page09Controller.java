@@ -23,7 +23,6 @@ public class Page09Controller implements Initializable,PageController
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
     }    
 
     @Override

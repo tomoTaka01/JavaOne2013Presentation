@@ -20,12 +20,12 @@
         <Font size="30.0" />
       </font>
     </Text>
-    <ImageView fitHeight="183.35849235534667" fitWidth="339.0" layoutX="68.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fitHeight="180.0" fitWidth="339.0" layoutX="68.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@team1.jpg" />
       </image>
     </ImageView>
-    <ImageView fitHeight="232.6409454345703" fitWidth="350.0" layoutX="167.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fitHeight="230.0" fitWidth="350.0" layoutX="167.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@RaspiTeam2.jpg" />
       </image>

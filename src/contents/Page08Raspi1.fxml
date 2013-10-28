@@ -15,7 +15,7 @@
     </Text>
     <Text id="p2" fill="WHITE" font="$x1" layoutX="50" layoutY="150.0" text="インストール後にScrachを発見" />
     <Text id="p3" fill="WHITE" font="$x1" layoutX="50.0" layoutY="200.0" text="最初にしたのがムーンウォーク！" />
-    <ImageView fitHeight="273.2432401937147" fitWidth="354.7368469238281" layoutX="151.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fitHeight="270.0" fitWidth="350.0" layoutX="151.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@scratch.jpg" />
       </image>

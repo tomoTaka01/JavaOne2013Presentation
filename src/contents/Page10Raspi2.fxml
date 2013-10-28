@@ -17,12 +17,12 @@
             <font><Font size="22.0"  fx:id="x1"/></font>
     </Text>
     <Text fill="WHITE" font="$x1" layoutX="50.0" layoutY="150.0" text="しばらく待ってといわれたので、一人で温度表示する画面をJavaFXで作成"/>
-    <ImageView fitHeight="247.75199432373046" fitWidth="372.0" layoutX="200.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fitHeight="250.0" fitWidth="370.0" layoutX="200.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@Bruno.jpg" />
       </image>
     </ImageView>
-    <ImageView fitHeight="90.88118743896484" fitWidth="350.3435134204713" layoutX="77.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fitHeight="100.0" fitWidth="350.0" layoutX="77.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@App1.png" />
       </image>

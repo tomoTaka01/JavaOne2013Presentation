@@ -15,7 +15,7 @@
     </Text>
     <Text fill="WHITE" fx:id="p2" font="$x1" layoutX="50.0" layoutY="150.0" text="第一、第二候補で色わけしている２枚の付箋に名前を書く" />
     <Text fill="WHITE" fx:id="p3" font="$x1" layoutX="50.0" layoutY="200.0" text="その付箋を開発したいアイデアの付箋の横に貼る" />
-    <ImageView fx:id="image1"  fitHeight="242.74692153930664" fitWidth="325.0" layoutX="244.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+    <ImageView fx:id="image1"  fitHeight="250.0" fitWidth="300.0" layoutX="244.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
       <image>
         <Image url="@Board.JPG" />
       </image>

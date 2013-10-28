@@ -8,11 +8,9 @@ package controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.animation.TranslateTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.text.Text;
-import javafx.util.Duration;
 import transition.NodeTransitions;
 
 /**
@@ -42,13 +40,7 @@ public class Page13Controller implements Initializable,PageController {
     @Override
     public boolean doAction() {
         if (index < texts.length){
-            TranslateTransition t = new TranslateTransition(Duration.seconds(3));
-            t.setNode(texts[index]);
-            t.setFromX(800.0);
-            t.setToX(50.0);
-            texts[index].setOpacity(1.0);
-            t.play();
-//            NodeTransitions.fadein(texts[index],5);
+            NodeTransitions.translate(texts[index], 3);
             index++;
             return true;
         }
