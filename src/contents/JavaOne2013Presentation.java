@@ -21,21 +21,22 @@ public class JavaOne2013Presentation extends Application {
     public static final double WIDTH = 800.0;
     public static final double HEIGHT = 600.0;
     private String[] pages = {
-//        "Page01Title.fxml"
-//        ,"Page02Intro.fxml"
-//        ,"Page03Before.fxml"
-//        ,"Page04After.fxml"
-//        ,"Page05Raspi1.fxml"
-//        ,"Page06Raspi1.fxml"
-//        ,"Page06Raspi1_1.fxml"
-//        ,"Page07Raspi1.fxml"
-//        ,"Page08Raspi1.fxml"
-//        ,"Page09Raspi1.fxml"
-//        ,"Page10Raspi2.fxml"
-//        ,"Page11Raspi3.fxml"
-        "Page12Raspi3.fxml"
-//        "Page13Raspi3.fxml"
+        "Page01Title.fxml"
+        ,"Page02Intro.fxml"
+        ,"Page03Before.fxml"
+        ,"Page04After.fxml"
+        ,"Page05Raspi1.fxml"
+        ,"Page06Raspi1.fxml"
+        ,"Page06Raspi1_1.fxml"
+        ,"Page07Raspi1.fxml"
+        ,"Page08Raspi1.fxml"
+        ,"Page09Raspi1.fxml"
+        ,"Page10Raspi2.fxml"
+        ,"Page11Raspi3.fxml"
+        ,"Page12Raspi3.fxml"
+        ,"Page13Raspi3.fxml"
         ,"Page99Party.fxml"
+        ,"Page14Hostel.fxml"
     };
     private int pageIx;
     private Group root;
