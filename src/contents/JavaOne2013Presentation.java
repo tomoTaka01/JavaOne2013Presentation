@@ -37,6 +37,7 @@ public class JavaOne2013Presentation extends Application {
         ,"Page13Raspi3.fxml"
         ,"Page99Party.fxml"
         ,"Page14Hostel.fxml"
+        ,"Page15Information.fxml"
     };
     private int pageIx;
     private Group root;

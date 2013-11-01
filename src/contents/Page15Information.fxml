@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.Page15Controller">
+    <children>
+        <Text id="p1" fx:id="p1" fill="WHITE" layoutX="70.0" layoutY="100.0" stroke="WHITE" text="詳しくは" >
+            <font><Font size="48.0" /></font>
+        </Text>
+        <Text fx:id="p2" fill="WHITE" layoutX="50" layoutY="200" text="Raspberry Pi Challenge" >
+            <font><Font size="36.0" fx:id="x1" /></font>            
+        </Text>
+        <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="100" layoutY="250" text="https://www.java.net/challenge"   />
+        <Text fx:id="p4" fill="WHITE" font="$x1" layoutX="50" layoutY="400" text="ホステル"   />
+        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="100" layoutY="450" text="http://orangevillagehostel.com/"   />
+    </children>
+</AnchorPane>

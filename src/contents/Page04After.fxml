@@ -17,7 +17,7 @@
         </Text>
         <Text fx:id="p3" fill="WHITE" font="$x1" layoutX="250" layoutY="230" text="やっぱり？？？" />
         <Text fx:id="p4" fill="SKYBLUE" font="$x1" layoutX="50" layoutY="300" text="ハンズオンラボ・・・" />
-        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="250" layoutY="330" text="全然字が見えない" />
+        <Text fx:id="p5" fill="WHITE" font="$x1" layoutX="250" layoutY="330" text="和気あいあいとした雰囲気" />
         <Text fx:id="p6" fill="PINK" font="$x1" layoutX="50" layoutY="400" text="Raspberry Pi Challenge・・・" />
         <Text fx:id="p7" fill="WHITE" layoutX="250" layoutY="470" text="参加して良かった！">
                         <font><Font size="38.0" /></font>
